@@ -1,0 +1,874 @@
+body {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    /*font-family:Verdana ,sans-serif;*/
+    font-family: 'Sintony', sans-serif;
+    color: #000
+}
+
+.mainbody {
+    width: 800px;
+    border: 1px solid #A4A4A4;
+    padding: 10px
+}
+
+strong {
+    font-weight: bold
+}
+
+.spacing {
+    height: 50px
+}
+
+.spacemargin {
+    height: 100px
+}
+
+/*================= header table personal details ==================*/
+.mainbody .headerdetails {
+    width: 100%;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center
+}
+
+.mainbody .headerdetails table {
+    width: 100%;
+    font-size: 15px
+}
+
+.mainbody .headerdetails .personname {
+    width: 50%;
+    padding: 5px;
+    text-align: left
+}
+
+
+.mainbody .headerdetails .datecol {
+    width: 50%;
+    padding: 5px;
+    text-align: right
+}
+
+.mainbody .headerdetails .letterhead {
+    font-size: 12px;
+    text-align: center
+}
+
+.mainbody .headerdetails .name {
+    text-align: left;
+    margin-top: 0px
+}
+
+.normal_text {
+    text-align: justify;
+    margin-top: 0px;
+    line-height: 18px;
+    font-weight: normal
+}
+
+.header {
+    background-color: #F5F5F5;
+    padding: 5px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid #a4a4a4
+}
+
+/*================= Personal Details  Portion ==================*/
+
+.candidatedetails {
+    width: 100%
+}
+
+.candidatedetails table {
+    width: 100%;
+    text-align: left;
+    line-height: 30px;
+    border: 1px solid #a4a4a4
+}
+
+.candidatedetails table .columnone {
+    width: 20%;
+    background-color: #f5f5f5;
+    border-right: 1px solid #a4a4a4;
+    color: #575757;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left;
+    font-weight: 600
+}
+
+.candidatedetails table .columnTwo {
+    width: 30%;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left
+}
+
+/*================= Instruction  Portion ==================*/
+
+.instructiondetails {
+    line-height: 25px;
+    text-align: left;
+    width: 100%
+}
+
+.instructiondetails ol {
+    line-height: 25px;
+    text-align: left;
+    margin-left: -20px
+}
+
+
+
+/*================= Offer Letter Text  Portion ==================*/
+
+.mainbody .maincol {
+    width: 100%;
+}
+
+.mainbody .maincol .headtext {
+    width: 30%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.mainbody .maincol .content {
+    width: 70%;
+    text-align: left;
+}
+
+
+/*================= Salary Portion CSS ==================*/
+
+.mainbody .salarybody {
+    width: 100%;
+    border: 1px solid #a4a4a4;
+    line-height: 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px
+}
+
+.salarybody .colone {
+    width: 50px;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    text-align: center
+}
+
+.salarybody .coltwo {
+    width: 250px;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left
+}
+
+.salarybody .colthree {
+    width: 200px;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding-right: 5px;
+    text-align: right
+}
+
+.salarybody .colfour {
+    width: 200px;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right
+}
+
+.salarybody .mergecol {
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 1px solid #a4a4a4
+}
+
+.salarybody .mergecolone {
+    width: 300px;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left
+}
+
+.salarybody .mergecoltwo {
+    width: 400px;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left
+}
+
+.salarybody .footermerge {
+    width: 350px;
+    border-right: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left
+}
+
+.salarybody .footermergetwo {
+    width: 350px;
+    text-align: center
+}
+
+
+/*================= Salary Portion (Bifurcation and PLI) CSS ==================*/
+
+.mainbody .salcalpart2 {
+    width: 100%
+}
+
+.PliMainCol {
+    width: 49%
+}
+
+.PliCol {
+    width: 100%;
+    border: 1px solid #a4a4a4;
+    line-height: 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px
+}
+
+.PliCol .PlicolText {
+    width: 150px;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left
+}
+
+.PliCol .PlicolVaue {
+    width: 200px;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left
+}
+
+.sep {
+    width: 2%
+}
+
+.salcalcibottom {
+    text-align: center;
+    border-bottom: 1px solid #a4a4a4
+}
+
+.SalBifurMainCol {
+    width: 49%
+}
+
+.SalBifur {
+    width: 100%;
+    border: 1px solid #a4a4a4;
+    line-height: 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px
+}
+
+.SalBifur .SalBifurcolText {
+    width: 150px;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left
+}
+
+.SalBifur .SalBifurcolVaue {
+    width: 200px;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: left
+}
+
+/*================= SALARY CALCULATION PAGE ==================*/
+
+
+.wrapper {
+    width: 100%;
+}
+
+.headerportion {
+    width: 100%;
+    background-color: #56585a;
+    border-bottom: 1px solid #e9ecf3;
+    height: 75px
+}
+
+.headerportion table {
+    width: 95%;
+    height: 75px
+}
+
+.logocol {
+    width: 40%;
+    padding: 6px 0px 0px 0px;
+    text-align: left
+}
+
+.btncol {
+    float: right;
+    padding: 18px 0px 0px 0px
+}
+
+.salarypart {
+    width: 100%;
+    margin-top: 5px
+}
+
+.salarypart table {
+    width: 95%
+}
+
+.salarycol {
+    width: 50%
+}
+
+.calculatorcol {
+    width: 45%
+}
+
+
+.form-boxred {
+    width: 100%;
+    border: 1px solid #e21f26
+}
+
+.form-boxred .headboxred {
+    width: 100%;
+    background-color: #e21f26;
+    border-bottom: 1px solid #e21f26;
+    height: 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif
+}
+
+.headboxred p {
+    padding: 5px 0px 0px 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px
+}
+
+.form-boxgreen {
+    width: 100%;
+    border: 1px solid #337ab7
+}
+
+.form-boxgreen .headboxgreen {
+    width: 100%;
+    background-color: #337ab7;
+    border-bottom: 1px solid #337ab7;
+    height: 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif
+}
+
+.headboxgreen p {
+    padding: 5px 0px 0px 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px
+}
+
+.form-boxgray {
+    width: 100%;
+    border: 1px solid #e1e5ec
+}
+
+.form-boxgray .headboxgray {
+    width: 100%;
+    background-color: #e1e5ec;
+    border-bottom: 1px solid #e1e5ec;
+    height: 30px;
+    color: #666;
+    font-family: 'Open Sans', sans-serif
+}
+
+.headboxgray p {
+    padding: 5px 0px 0px 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px
+}
+
+
+.form-boxlightblue {
+    width: 100%;
+    border: 1px solid #2d6282
+}
+
+.form-boxlightblue .headboxlightblue {
+    width: 100%;
+    background-color: #2d6282;
+    border-bottom: 1px solid #2d6282;
+    height: 30px;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif
+}
+
+.headboxlightblue p {
+    padding: 5px 0px 0px 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px
+}
+
+.calcipart {
+    margin: 5px 10px 10px 10px;
+    font-family: 'Open Sans', sans-serif
+}
+
+.calcipart table {
+    width: 100%
+}
+
+.colpartone {
+    width: 49%;
+    text-align: left
+}
+
+.colparttwo {
+    width: 49%;
+    text-align: left
+}
+
+.calcicolone {
+    width: 30%;
+    text-align: left
+}
+
+.calcicoltwo {
+    width: 30%;
+    text-align: left
+}
+
+.calcicolthree {
+    width: 30%;
+    text-align: left
+}
+
+.seperater {
+    height: 8px
+}
+
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 4px 18px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 0px;
+    text-decoration: none
+}
+
+.btn:not(.btn-sm):not(.btn-lg) {
+    line-height: 1.44;
+}
+
+.btn.green-meadow:not(.btn-outline) {
+    color: #FFF;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.btn.default:not(.btn-outline) {
+    color: #666;
+    background-color: #e1e5ec;
+    border-color: #e1e5ec;
+}
+
+.btn.red:not(.btn-outline) {
+    color: #fff;
+    background-color: #e21f26;
+    border-color: #C9030A;
+}
+
+.form-control {
+    width: 80%;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #c2cad8;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    height: 15px;
+    border-radius: 0px
+}
+
+.form-control:focus {
+    border-color: #93a1bb;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(147, 161, 187, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(147, 161, 187, .6);
+}
+
+.form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #999;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #999;
+}
+
+label {
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+.nametext {
+    width: 100px;
+    border: 1px solid #ECEDED;
+    font-size: 12px;
+    padding: 0px 0px 0px 5px;
+    height: 20px;
+    margin: 4px 4px 4px 0px
+}
+
+.nametext:focus {
+    border: 1px solid #F9F9F9;
+    border-color: #93a1bb;
+}
+
+
+
+
+
+/*=================== VISION INDIA STAFFING OFFER LETTER ==========================*/
+
+.normal_text ul li {
+    padding-bottom: 5px
+}
+
+.offertext {
+    font-family: 'Bookman Old Style', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.mainbody .compensationbody {
+    width: 100%;
+    border: 1px solid #111111;
+    line-height: 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 400
+}
+
+.compensationbody .wholecol {
+    border-bottom: 1px solid #111;
+    text-align: center
+}
+
+.compensationbody .col_one {
+    width: 300px;
+    border-right: 1px solid #111111;
+    border-bottom: 1px solid #111111;
+    text-align: left;
+    padding-left: 10px
+}
+
+.compensationbody .col_two {
+    width: 200px;
+    border-right: 1px solid #111111;
+    border-bottom: 1px solid #111111;
+    text-align: center;
+}
+
+.compensationbody .col_three {
+    width: 200px;
+    border-bottom: 1px solid #111111;
+    text-align: center;
+}
+
+.compensationbody .mergetwocol {
+    border-bottom: 1px solid #111111;
+    text-align: left;
+    padding-left: 10px
+}
+
+.textcol {
+    padding: 5px;
+    border: 1px solid #000;
+    color: #111111;
+    text-align: justify;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.benefitpart {
+    width: 100%;
+    border: 1px solid #111111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.benefitpart .merge {
+    background-color: #E7E6E6;
+    border-bottom: 1px solid #111;
+    text-align: center
+}
+
+.benefitpart .benefitcolone {
+    width: 100px;
+    text-align: center;
+    border-bottom: 1px solid #111111;
+    border-right: 1px solid #111111
+}
+
+.benefitpart .benefitcoltwo {
+    width: 600px;
+    text-align: left;
+    padding-left: 10px;
+    border-bottom: 1px solid #111111
+}
+
+
+.staffingFooter {
+    width: 100%;
+    line-height: 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold
+}
+
+.staffingFooter .footercolone {
+    width: 450px;
+    text-align: left;
+    padding-left: 30px
+}
+
+.staffingFooter .footercoltwo {
+    width: 250px;
+    text-align: left;
+    padding-left: 60px
+}
+
+
+.comptext {
+    margin-top: 0px;
+    line-height: 20px
+}
+
+
+
+/*=================== VISION INDIA STAFFING APPOINTMENT LETTER ==========================*/
+
+.mainbody .apptbody {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400
+}
+
+p {
+    margin: 10px 0px 0px 0px;
+    text-align: justify;
+}
+
+.apptbody .personaldetails {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 0px
+}
+
+.apptbody .personaldetails p {
+    margin-top: 5px;
+    padding: 0px;
+    line-height: 17px
+}
+
+.apphead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 20px
+}
+
+.appttext {
+    line-height: 18px;
+    margin-left: 10px;
+    text-align: justify
+}
+
+.normalspace {
+    height: 10px
+}
+
+.listtext ul {
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.listtext ul li {
+    margin: 15px 0px 0px -22px;
+}
+
+
+
+/*=================== NEEM TRAINEE  LETTER ==========================*/
+
+.mainbody .traineeltterbody {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.lettertext {
+    margin: 10px 0px 0px 0px;
+    text-align: justify;
+    line-height: 21px
+}
+
+.othertext {
+    text-align: justify;
+    margin: 10px 0px 0px 0px;
+    line-height: 21px
+}
+
+.lettertext ol li {
+    margin: 10px 0px 0px 0px
+}
+
+
+.mainbody .neemcompensationtype {
+    width: 100%;
+    border: 1px solid #a4a4a4;
+    line-height: 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.allfivecol {
+    background-color: #D2D1D1;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid #a4a4a4;
+}
+
+.neemcompcolhead {
+    width: 20%;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: center;
+    background-color: #CBCBCB;
+}
+
+.neemcompcol {
+    width: 20%;
+    border-right: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding-left: 5px;
+    text-align: center;
+}
+
+
+/*=================== OJT  LETTER ==========================*/
+
+.mainbody .ojtltterbody {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.ojthead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.ojtlettertext {
+    margin: 10px 0px 0px 0px;
+    text-align: justify;
+    line-height: 21px;
+    font-size: 14px
+}
+
+.ojtothertext {
+    text-align: justify;
+    margin: 10px 0px 0px 0px;
+    line-height: 21px
+}
+
+.ojtlettertext ol li {
+    margin: 10px 0px 0px 0px
+}
+
+
+/*=================== Udaan OJT  LETTER ==========================*/
+.Udaanojtlettertext {
+    margin: 10px 0px 0px 0px;
+    text-align: justify;
+    line-height: 21px;
+    font-size: 14px;
+    font-family: 'Bookman Old Style', sans-serif
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media print {
+.columnone{
+    border-top:1px solid #a4a4a4 ;
+}
+.header{
+    border-right:1px solid #a4a4a4 ;
+}
+.columnTwo{
+    border-right:1px solid #a4a4a4 !important;
+}
+#ImgCandidate{
+    border-width: 0px;
+    width: 100%;
+    height: 86%;
+    margin-top: 19px;
+}
+}

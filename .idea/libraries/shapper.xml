@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="shapper">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/demo_shapers/shapper.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ckeditor_4.18.0_full">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/demo_shapers/public/assets/plugins/ckeditor/ckeditor_4.18.0_full.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

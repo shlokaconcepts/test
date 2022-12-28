@@ -1,0 +1,1 @@
+{{QrCode::size(220)->generate($link)}}

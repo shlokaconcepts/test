@@ -1,0 +1,31 @@
+.btn--dark.btn--shadow { box-shadow: 0 5px 10px 0 rgb(16 22 58 / 35%); } 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } 
+input[type=number] { -moz-appearance: textfield; } 
+.form-check-input { cursor: pointer; } 
+h1,
+h4,
+h3,
+h5,
+h6 { color: rgb(52, 38, 164) !important; } 
+fieldset { border: 1px solid rgb(52, 38, 164); margin-bottom: 5px; padding: 11px 10px 15px 10px; border-radius: 6px; } 
+legend { float: unset; width: auto; margin-bottom: 0 !important; } 
+legend p { font-size: 11pt; border: transparent; width: auto !important; border: 1px solid #141C69; box-shadow: 3px 3px 15px #ccc; padding: 5px 10px; background: #141C69; color: white; border-radius: 4px; margin: 0 auto; display: block; } 
+.error { color: red; font-size: smaller; } 
+.frm_com_logo { height: 150px !important; width: 100%; } 
+thead tr { background: rgb(58, 42, 174) !important; } 
+.btn-custom { border: 141C69; color: white !important; border-radius: 20px; padding: 8px 18px; font-size: 14px; background: rgb(2, 0, 36); background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(8, 17, 175, 0.9951330874146533) 62%, rgba(8, 5, 196, 1) 100%); } 
+.btn-custom-2 { background-color: transparent; border: none; color: #333333; font-size: 16px; font-weight: 600; } 
+.btn-custom-2:hover,
+.btn-custom-2:focus { color: red !important; } 
+.btn:active,
+.btn:focus,
+.btn.active { outline: 0; -webkit-box-shadow: none; box-shadow: none; } 
+.steppers-list li { margin-right: 10px; } 
+.steppers-list .nav-link { background-color: #8184a9; color: #fff; } 
+.steppers-list .nav-link.active,
+.steppers-list .nav-link:hover,
+.steppers-list .nav-link:focus { background-color: #141C69 !important; color: #fff !important; } 
+.steppers-list .nav-link.active,
+.steppers-list .nav-link:hover,
+.steppers-list .nav-link:focus { background-color: #141C69 !important; color: #fff !important; } 
